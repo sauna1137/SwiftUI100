@@ -13,6 +13,7 @@
 		8AC859E729E37E660003D865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC859E629E37E660003D865 /* Preview Assets.xcassets */; };
 		8AC859F129E381360003D865 /* content1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC859F029E381360003D865 /* content1.swift */; };
 		8AC859F529E43DE40003D865 /* content2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC859F429E43DE40003D865 /* content2.swift */; };
+		8AC859F729E4CF6D0003D865 /* content3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC859F629E4CF6D0003D865 /* content3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8AC859E629E37E660003D865 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AC859F029E381360003D865 /* content1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content1.swift; sourceTree = "<group>"; };
 		8AC859F429E43DE40003D865 /* content2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content2.swift; sourceTree = "<group>"; };
+		8AC859F629E4CF6D0003D865 /* content3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				8AC859F029E381360003D865 /* content1.swift */,
 				8AC859F429E43DE40003D865 /* content2.swift */,
+				8AC859F629E4CF6D0003D865 /* content3.swift */,
 			);
 			path = 100;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC859F129E381360003D865 /* content1.swift in Sources */,
+				8AC859F729E4CF6D0003D865 /* content3.swift in Sources */,
 				8AC859E229E37E630003D865 /* ContentView.swift in Sources */,
 				8AC859F529E43DE40003D865 /* content2.swift in Sources */,
 				8AC859E029E37E630003D865 /* SwiftUI100App.swift in Sources */,
