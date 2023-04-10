@@ -10,11 +10,10 @@ import SwiftUI
 struct ContentView1: View {
     var body: some View {
         Image("image1") // 画像を読み込む
-            .resizable() // サイズを自由に変更可能にする
-            .scaledToFill() // アスペクト比を維持したまま、Viewのサイズに画像をフィットさせる
-            .frame(width: 150, height: 200) // Viewのサイズを指定する
-            .clipped() // フレームからはみ出る画像を切り取る
-            .background(Color.red) // Viewの背景色を赤色に設定する
+            .resizable() // サイズ変更を可能にする
+            .aspectRatio(contentMode: .fit) // 縦横比を維持し、View内に収まるように調整
+            .frame(width: 150, height: 200) // フレームを設定
+            .background(Color.red) // 背景色を設定
     }
 }
 
