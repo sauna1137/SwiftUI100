@@ -9,11 +9,11 @@ import SwiftUI
 
 struct content4: View {
     var body: some View {
-        HStack {
-            Image("image1")
+        HStack { // 横に並べる要素を格納する
+            Image("image1") // 画像を読み込む
                 .resizable()
-                .frame(width: 42, height: 42)
-            Spacer()
+                .frame(width: 42, height: 42) // サイズを指定する
+            Spacer() // 余白を空ける
             Image("image1")
                 .resizable()
                 .frame(width: 42, height: 42)
