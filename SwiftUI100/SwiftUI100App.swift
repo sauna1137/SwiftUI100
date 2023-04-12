@@ -14,7 +14,7 @@ import SwiftUI
 struct SwiftUI100App: App {
     var body: some Scene {
         WindowGroup {
-            content5()
+            content6()
         }
     }
 
