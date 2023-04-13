@@ -18,6 +18,7 @@
 		8AC859FB29E6D1D10003D865 /* content5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC859FA29E6D1D10003D865 /* content5.swift */; };
 		8AC859FD29E6D6250003D865 /* content6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC859FC29E6D6250003D865 /* content6.swift */; };
 		8AC859FF29E6D66C0003D865 /* content6b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC859FE29E6D66C0003D865 /* content6b.swift */; };
+		8AC85A0129E6E3470003D865 /* content7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0029E6E3470003D865 /* content7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8AC859FA29E6D1D10003D865 /* content5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content5.swift; sourceTree = "<group>"; };
 		8AC859FC29E6D6250003D865 /* content6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content6.swift; sourceTree = "<group>"; };
 		8AC859FE29E6D66C0003D865 /* content6b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content6b.swift; sourceTree = "<group>"; };
+		8AC85A0029E6E3470003D865 /* content7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = content7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				8AC859FA29E6D1D10003D865 /* content5.swift */,
 				8AC859FC29E6D6250003D865 /* content6.swift */,
 				8AC859FE29E6D66C0003D865 /* content6b.swift */,
+				8AC85A0029E6E3470003D865 /* content7.swift */,
 			);
 			path = 100;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC859F929E6209F0003D865 /* content4.swift in Sources */,
+				8AC85A0129E6E3470003D865 /* content7.swift in Sources */,
 				8AC859F129E381360003D865 /* content1.swift in Sources */,
 				8AC859FD29E6D6250003D865 /* content6.swift in Sources */,
 				8AC859F729E4CF6D0003D865 /* content3.swift in Sources */,
