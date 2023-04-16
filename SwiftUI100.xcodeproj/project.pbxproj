@@ -20,6 +20,7 @@
 		8AC859FF29E6D66C0003D865 /* List2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC859FE29E6D66C0003D865 /* List2.swift */; };
 		8AC85A0129E6E3470003D865 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0029E6E3470003D865 /* Picker.swift */; };
 		8AC85A0329E821640003D865 /* tavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0229E821640003D865 /* tavView.swift */; };
+		8AC85A0529EC05940003D865 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0429EC05940003D865 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		8AC859FE29E6D66C0003D865 /* List2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List2.swift; sourceTree = "<group>"; };
 		8AC85A0029E6E3470003D865 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
 		8AC85A0229E821640003D865 /* tavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tavView.swift; sourceTree = "<group>"; };
+		8AC85A0429EC05940003D865 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				8AC859FE29E6D66C0003D865 /* List2.swift */,
 				8AC85A0029E6E3470003D865 /* Picker.swift */,
 				8AC85A0229E821640003D865 /* tavView.swift */,
+				8AC85A0429EC05940003D865 /* Button.swift */,
 			);
 			path = 100;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				8AC859F729E4CF6D0003D865 /* imageRadius.swift in Sources */,
 				8AC859E229E37E630003D865 /* ContentView.swift in Sources */,
 				8AC85A0329E821640003D865 /* tavView.swift in Sources */,
+				8AC85A0529EC05940003D865 /* Button.swift in Sources */,
 				8AC859F529E43DE40003D865 /* image2.swift in Sources */,
 				8AC859FB29E6D1D10003D865 /* Navigation.swift in Sources */,
 				8AC859FF29E6D66C0003D865 /* List2.swift in Sources */,
