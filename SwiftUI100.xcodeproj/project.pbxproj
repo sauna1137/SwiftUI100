@@ -26,6 +26,7 @@
 		8AC85A0B29ED68280003D865 /* Button2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0A29ED68280003D865 /* Button2.swift */; };
 		8AC85A0D29ED694D0003D865 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0C29ED694D0003D865 /* Collections.swift */; };
 		8AC85A0F29ED6D070003D865 /* Collection2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0E29ED6D070003D865 /* Collection2.swift */; };
+		8AC85A1129EE07580003D865 /* Collection3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A1029EE07580003D865 /* Collection3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		8AC85A0A29ED68280003D865 /* Button2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button2.swift; sourceTree = "<group>"; };
 		8AC85A0C29ED694D0003D865 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
 		8AC85A0E29ED6D070003D865 /* Collection2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2.swift; sourceTree = "<group>"; };
+		8AC85A1029EE07580003D865 /* Collection3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				8AC85A0A29ED68280003D865 /* Button2.swift */,
 				8AC85A0C29ED694D0003D865 /* Collections.swift */,
 				8AC85A0E29ED6D070003D865 /* Collection2.swift */,
+				8AC85A1029EE07580003D865 /* Collection3.swift */,
 			);
 			path = 100;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				8AC85A0929EC0F990003D865 /* Alert.swift in Sources */,
 				8AC85A0729EC0A920003D865 /* List3.swift in Sources */,
 				8AC85A0329E821640003D865 /* tavView.swift in Sources */,
+				8AC85A1129EE07580003D865 /* Collection3.swift in Sources */,
 				8AC85A0529EC05940003D865 /* Button.swift in Sources */,
 				8AC85A0D29ED694D0003D865 /* Collections.swift in Sources */,
 				8AC859F529E43DE40003D865 /* image2.swift in Sources */,
