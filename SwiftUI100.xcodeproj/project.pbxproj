@@ -25,6 +25,7 @@
 		8AC85A0929EC0F990003D865 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0829EC0F990003D865 /* Alert.swift */; };
 		8AC85A0B29ED68280003D865 /* Button2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0A29ED68280003D865 /* Button2.swift */; };
 		8AC85A0D29ED694D0003D865 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0C29ED694D0003D865 /* Collections.swift */; };
+		8AC85A0F29ED6D070003D865 /* Collection2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0E29ED6D070003D865 /* Collection2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		8AC85A0829EC0F990003D865 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		8AC85A0A29ED68280003D865 /* Button2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button2.swift; sourceTree = "<group>"; };
 		8AC85A0C29ED694D0003D865 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		8AC85A0E29ED6D070003D865 /* Collection2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				8AC85A0829EC0F990003D865 /* Alert.swift */,
 				8AC85A0A29ED68280003D865 /* Button2.swift */,
 				8AC85A0C29ED694D0003D865 /* Collections.swift */,
+				8AC85A0E29ED6D070003D865 /* Collection2.swift */,
 			);
 			path = 100;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				8AC85A0129E6E3470003D865 /* Picker.swift in Sources */,
 				8AC859F129E381360003D865 /* image.swift in Sources */,
 				8AC859FD29E6D6250003D865 /* List.swift in Sources */,
+				8AC85A0F29ED6D070003D865 /* Collection2.swift in Sources */,
 				8AC859F729E4CF6D0003D865 /* imageRadius.swift in Sources */,
 				8AC859E229E37E630003D865 /* ContentView.swift in Sources */,
 				8AC85A0929EC0F990003D865 /* Alert.swift in Sources */,
