@@ -24,6 +24,7 @@
 		8AC85A0729EC0A920003D865 /* List3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0629EC0A920003D865 /* List3.swift */; };
 		8AC85A0929EC0F990003D865 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0829EC0F990003D865 /* Alert.swift */; };
 		8AC85A0B29ED68280003D865 /* Button2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0A29ED68280003D865 /* Button2.swift */; };
+		8AC85A0D29ED694D0003D865 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0C29ED694D0003D865 /* Collections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		8AC85A0629EC0A920003D865 /* List3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List3.swift; sourceTree = "<group>"; };
 		8AC85A0829EC0F990003D865 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		8AC85A0A29ED68280003D865 /* Button2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button2.swift; sourceTree = "<group>"; };
+		8AC85A0C29ED694D0003D865 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				8AC85A0629EC0A920003D865 /* List3.swift */,
 				8AC85A0829EC0F990003D865 /* Alert.swift */,
 				8AC85A0A29ED68280003D865 /* Button2.swift */,
+				8AC85A0C29ED694D0003D865 /* Collections.swift */,
 			);
 			path = 100;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				8AC85A0729EC0A920003D865 /* List3.swift in Sources */,
 				8AC85A0329E821640003D865 /* tavView.swift in Sources */,
 				8AC85A0529EC05940003D865 /* Button.swift in Sources */,
+				8AC85A0D29ED694D0003D865 /* Collections.swift in Sources */,
 				8AC859F529E43DE40003D865 /* image2.swift in Sources */,
 				8AC859FB29E6D1D10003D865 /* Navigation.swift in Sources */,
 				8AC859FF29E6D66C0003D865 /* List2.swift in Sources */,
