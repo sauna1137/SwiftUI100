@@ -16,14 +16,24 @@ struct Collection3: View {
     let items = Array(1...50)
 
     var body: some View {
-        GeometryReader { geometry in
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 12) {
-                    ForEach(items, id: \.self) { item in
-                        Text("Item \(item)")
-                            .frame(minWidth: 0, maxWidth: .infinity, minHeight: geometry.size.width / 2)
-                            .background(Color.green)
-                            .clipShape(Circle())
+        // GeometryReader を使用してビューのサイズを取得
+                GeometryReader { geometry in
+                    // スクロールビューを作成
+                    ScrollView {
+                        // LazyVGrid を作成し、各行に2つのセルを配置
+                        LazyVGrid(columns: columns, spacing: 12) {
+                            // 配列内の各アイテムに対して繰り返し処理
+                            ForEach(items, id: \.self) { item in
+                                // VStack を使用して画像とテキストを縦に配置
+                                VStack {
+                            Image("image1")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(minWidth: 0, maxWidth: .infinity, minHeight: geometry.size.width / 2)
+                                .clipShape(Circle())
+                            Text("Item \(item)")
+                                .font(.system(size: 16))
+                        }
                     }
                 }
                 .padding(.horizontal)
