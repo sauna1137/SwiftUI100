@@ -28,6 +28,7 @@
 		8AC85A0F29ED6D070003D865 /* Collection2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A0E29ED6D070003D865 /* Collection2.swift */; };
 		8AC85A1129EE07580003D865 /* Collection3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A1029EE07580003D865 /* Collection3.swift */; };
 		8AC85A1329EE0A1C0003D865 /* Collection4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A1229EE0A1C0003D865 /* Collection4.swift */; };
+		8AC85A1529EECC8A0003D865 /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85A1429EECC890003D865 /* TextAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		8AC85A0E29ED6D070003D865 /* Collection2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2.swift; sourceTree = "<group>"; };
 		8AC85A1029EE07580003D865 /* Collection3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection3.swift; sourceTree = "<group>"; };
 		8AC85A1229EE0A1C0003D865 /* Collection4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection4.swift; sourceTree = "<group>"; };
+		8AC85A1429EECC890003D865 /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				8AC85A0E29ED6D070003D865 /* Collection2.swift */,
 				8AC85A1029EE07580003D865 /* Collection3.swift */,
 				8AC85A1229EE0A1C0003D865 /* Collection4.swift */,
+				8AC85A1429EECC890003D865 /* TextAlert.swift */,
 			);
 			path = 100;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				8AC85A0929EC0F990003D865 /* Alert.swift in Sources */,
 				8AC85A0729EC0A920003D865 /* List3.swift in Sources */,
 				8AC85A0329E821640003D865 /* tavView.swift in Sources */,
+				8AC85A1529EECC8A0003D865 /* TextAlert.swift in Sources */,
 				8AC85A1129EE07580003D865 /* Collection3.swift in Sources */,
 				8AC85A0529EC05940003D865 /* Button.swift in Sources */,
 				8AC85A1329EE0A1C0003D865 /* Collection4.swift in Sources */,
