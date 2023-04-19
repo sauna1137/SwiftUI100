@@ -13,13 +13,14 @@ struct Collection5: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
-                ForEach(dataSource.pokemons, id: \.name) { pokemon in
+                ForEach(Array(dataSource.pokemons.enumerated()), id: \.1.name) { (index, pokemon) in
                     VStack {
-                        ImageView(urlString: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png")
+                        ImageView(urlString: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/\(index+1).png")
                         Text(pokemon.name)
                     }
                 }
             }
+
             .padding(.horizontal, 20)
             .padding(.vertical, 10)
         }
