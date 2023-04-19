@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Collection5: View {
+    // クラスの変更を検出し、それに応じてUIを更新
     @ObservedObject var dataSource = PokeDataSource()
 
     var body: some View {
@@ -20,7 +21,6 @@ struct Collection5: View {
                     }
                 }
             }
-
             .padding(.horizontal, 20)
             .padding(.vertical, 10)
         }
@@ -54,8 +54,10 @@ class PokeDataSource: ObservableObject {
             do {
                 let decoder = JSONDecoder()
                 let result = try decoder.decode(PokemonListResponse.self, from: data)
-                self.pokemons = result.results
-                print(self.pokemons)
+                DispatchQueue.main.async {
+                    self.pokemons = result.results
+                    print(self.pokemons)
+                }
             } catch {
                 print("Error: \(error.localizedDescription)")
             }
