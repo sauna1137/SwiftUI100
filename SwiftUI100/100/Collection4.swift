@@ -13,16 +13,21 @@ struct CustomCell4: View {
     var geometry: GeometryProxy
 
     var body: some View {
-        VStack {
+        VStack { // 垂直方向
+            // 画像を読み込み、ビューに表示
             Image("image1")
                 .resizable()
                 .scaledToFit()
+                // ビューの幅を画面いっぱいに広げ、高さを画面の半分にする
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: geometry.size.width / 2)
+                // 画像を丸くする
                 .clipShape(Circle())
+            // アイテム番号を表示する
             Text("Item \(item)")
                 .font(.system(size: 16))
         }
     }
+
 }
 
 struct Collection4: View {
